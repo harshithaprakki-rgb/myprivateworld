@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cream-bg: #F7F0E5;
+    --parchment: #EADCC8;
+    --dusty-rose: #D8A7A7;
+    --muted-brown: #8B6F5E;
+    --deep-chocolate: #49372E;
+    --sage-green: #A7B49A;
+  }
+
+  body {
+    background-color: var(--cream-bg);
+    color: var(--deep-chocolate);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Typography helper classes */
+.font-serif-vintage {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+.font-script {
+  font-family: 'Homemade Apple', cursive, Georgia, serif;
+}
+
+/* Paper and vintage textures */
+.parchment-texture {
+  background-color: #f5ede0;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.4) 0%, transparent 80%),
+    linear-gradient(rgba(139, 111, 94, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 111, 94, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 24px 24px, 24px 24px;
+}
+
+.vintage-ruled-paper {
+  background-color: #faf5ec;
+  background-image: linear-gradient(rgba(139, 111, 94, 0.12) 1px, transparent 1px);
+  background-size: 100% 2.2rem;
+  line-height: 2.2rem;
+}
+
+/* Torn paper deckle edges */
+.deckle-edge {
+  box-shadow: 
+    0 1px 1px rgba(73, 55, 46, 0.08),
+    0 4px 12px rgba(73, 55, 46, 0.06),
+    0 16px 32px rgba(73, 55, 46, 0.08);
+}
+
+/* 3D Book mechanics */
+.perspective-book {
+  perspective: 2000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Realistic book spine shadow */
+.book-spine-crease {
+  box-shadow: inset 18px 0 24px -10px rgba(0, 0, 0, 0.22), inset -18px 0 24px -10px rgba(0, 0, 0, 0.22);
+}
+
+.book-gutter-left {
+  box-shadow: inset -22px 0 20px -12px rgba(73, 55, 46, 0.2);
+}
+
+.book-gutter-right {
+  box-shadow: inset 22px 0 20px -12px rgba(73, 55, 46, 0.2);
+}
+
+/* Washi tape styles */
+.washi-tape-floral {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(216, 167, 167, 0.8),
+    rgba(216, 167, 167, 0.8) 10px,
+    rgba(234, 220, 200, 0.8) 10px,
+    rgba(234, 220, 200, 0.8) 20px
+  );
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  opacity: 0.9;
+}
+
+.washi-tape-kraft {
+  background: #c8b195;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  opacity: 0.92;
+}
+
+.washi-tape-sage {
+  background: #a7b49a;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  opacity: 0.88;
+}
+
+.washi-tape-gold {
+  background: linear-gradient(135deg, #d4af37 0%, #f3e5ab 50%, #aa7c11 100%);
+  box-shadow: 0 1px 4px rgba(170, 124, 17, 0.25);
+  opacity: 0.92;
+}
+
+/* Subtle vintage film grain overlay */
+.film-grain {
+  position: relative;
+}
+.film-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F0E5;
+}
+::-webkit-scrollbar-thumb {
+  background: #8B6F5E40;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B6F5E80;
+}

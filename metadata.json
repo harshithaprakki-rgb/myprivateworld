@@ -1,0 +1,7 @@
+{
+  "name": "My Private World - Vintage Digital Scrapbook & Diary",
+  "description": "An intimate, vintage digital diary and scrapbook featuring realistic 3D page turning, photo memories, secret vaults, and private journaling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

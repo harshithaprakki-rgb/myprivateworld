@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "id": "usr_7fb7efd8-a2eb-4266-9a05-75c1f30af193",
+      "name": "Harshitha",
+      "email": "harshithaprakki@gmail.com",
+      "passwordHash": "ee2ff23987c3e6fa7683830834c2a5e586eda8143bcbbc13e87a73138fe6de406beb9b1906a7c0cb620b59f97cfeebffc6462d2a4753fc78b19c60b862355cb9",
+      "salt": "6fbf2f91fe22e831e8d208c879aab95a",
+      "isEmailVerified": true,
+      "emailVerificationToken": "7406f91672ae5e0d550def1a6e9d3f6d92af434c47033938a199de1f616fe665",
+      "profile": {
+        "diaryTitle": "Harshitha's Secret World",
+        "diarySubtitle": "Every page holds a piece of me",
+        "ownerName": "Harshitha",
+        "bio": "A quiet sanctuary for memories, feelings, and timeless fragments of life.",
+        "coverTexture": "leather",
+        "accentColor": "#8B6F5E",
+        "fontStyle": "cormorant",
+        "ambientSound": "none"
+      },
+      "createdAt": "2026-11-11T20:00:48.883Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "c06d8339737b88e98d9e69c208c0fa66c1b915c35cd438fbaa373d92366811cd",
+      "userId": "usr_7fb7efd8-a2eb-4266-9a05-75c1f30af193",
+      "expiresAt": 1795032048938
+    }
+  ],
+  "pages": [
+    {
+      "id": "pg_59b99222-d578-4781-9567-a0e834395425",
+      "userId": "usr_7fb7efd8-a2eb-4266-9a05-75c1f30af193",
+      "pageNumber": 1,
+      "chapterTitle": "Prelude: The First Whisper",
+      "title": "A Beginning in Ink and Paper",
+      "date": "November 11, 2026",
+      "weatherMood": "Golden Dusk",
+      "inkColor": "#49372E",
+      "content": "I opened this journal when the afternoon light was turning everything amber. For a long time, I have wanted a place that belongs only to me—where thoughts do not need to perform, where sorrow can breathe softly, and where joy can be kept like dried rose petals inside heavy pages.\n\nHere, time slows down. Every photograph, every torn edge, and every written line will hold a fragment of my journey.",
+      "handwrittenNote": "“To write is to carve a quiet room out of the noise.”",
+      "quote": {
+        "text": "We do not remember days, we remember moments.",
+        "author": "Cesare Pavese"
+      },
+      "stickers": [
+        {
+          "id": "stk_1",
+          "type": "dried_rose",
+          "x": 80,
+          "y": 15,
+          "rotation": 12,
+          "label": "Wild Rose"
+        },
+        {
+          "id": "stk_2",
+          "type": "tape",
+          "x": 20,
+          "y": 88,
+          "rotation": -4
+        }
+      ],
+      "createdAt": "2026-11-11T20:00:48.937Z",
+      "updatedAt": "2026-11-11T20:00:48.938Z"
+    },
+    {
+      "id": "pg_a73fc54c-2063-4b95-b6fa-0a24cd57e524",
+      "userId": "usr_7fb7efd8-a2eb-4266-9a05-75c1f30af193",
+      "pageNumber": 2,
+      "chapterTitle": "Autumn Keepsakes",
+      "title": "The Quiet Magic of Ordinary Days",
+      "date": "November 9, 2026",
+      "weatherMood": "Gentle Rain",
+      "inkColor": "#3d2e27",
+      "content": "Rain pattered steadily against the glass today while hot steam rose from my cup. It felt as though the entire world had paused to catch its breath. I sat by the window watching the yellow leaves cling to wet branches before spiraling down.\n\nThere is a peculiar comfort in knowing that seasons change without our permission—that ending is just preparation for a gentle return.",
+      "handwrittenNote": "Remember how the coffee smelled this morning.",
+      "stickers": [
+        {
+          "id": "stk_3",
+          "type": "pressed_flower",
+          "x": 15,
+          "y": 18,
+          "rotation": -8,
+          "label": "Lavender"
+        },
+        {
+          "id": "stk_4",
+          "type": "stamp",
+          "x": 82,
+          "y": 80,
+          "rotation": 6,
+          "label": "Paris Airmail"
+        }
+      ],
+      "createdAt": "2026-11-09T20:00:48.938Z",
+      "updatedAt": "2026-11-09T20:00:48.938Z"
+    }
+  ],
+  "memories": [
+    {
+      "id": "mem_8cfcd423-2d4b-427f-ba96-04bd6cfe09db",
+      "userId": "usr_7fb7efd8-a2eb-4266-9a05-75c1f30af193",
+      "title": "Warm Windowsill & Coffee",
+      "date": "October 14th",
+      "location": "Old Attic Reading Nook",
+      "caption": "Soft golden hour light touching the worn paperbacks. Nothing else mattered for an hour.",
+      "imageUrl": "/src/assets/images/polaroid_memory_sunset_1794426769115.jpg",
+      "tapeStyle": "floral",
+      "rotation": -2,
+      "favorite": true,
+      "pageId": "pg_a73fc54c-2063-4b95-b6fa-0a24cd57e524",
+      "createdAt": "2026-11-11T20:00:48.938Z"
+    }
+  ],
+  "secrets": [
+    {
+      "id": "sec_393a7506-c249-4843-ac77-352653e40109",
+      "userId": "usr_7fb7efd8-a2eb-4266-9a05-75c1f30af193",
+      "title": "A Secret I Tell Only To The Night",
+      "date": "Midnight Reflection",
+      "sealColor": "crimson",
+      "sealMonogram": "M",
+      "isLockedWithPin": false,
+      "content": "Sometimes I pretend I have everything figured out, but in truth, I am just wandering toward beauty with an open heart. That is enough.",
+      "isRevealed": false,
+      "createdAt": "2026-11-11T20:00:48.938Z"
+    }
+  ],
+  "dreams": [
+    {
+      "id": "drm_ea988b8f-d518-4ba5-8e67-5f92fd43ad1d",
+      "userId": "usr_7fb7efd8-a2eb-4266-9a05-75c1f30af193",
+      "type": "future_letter",
+      "title": "To Myself One Year From Now",
+      "date": "Nov 11, 2026",
+      "content": "Dear future me, I hope you are softer with yourself. I hope you still stop to press flowers into heavy books, and I hope whatever worried you on this day has gently melted into wisdom.",
+      "mood": "Hopeful & Tender",
+      "unlockDate": "2027-11-11",
+      "isLocked": true,
+      "createdAt": "2026-11-11T20:00:48.938Z"
+    }
+  ],
+  "unknownLetters": [
+    {
+      "id": "unk_456211b2-65de-4b8d-9d85-4ac64a6ba8ee",
+      "userId": "usr_7fb7efd8-a2eb-4266-9a05-75c1f30af193",
+      "title": "To Anyone Looking at the Night Sky",
+      "date": "Nov 11, 2026",
+      "content": "Sometimes all we need is a soft place to rest our thoughts without feeling judged.",
+      "emotion": "Quiet Hope",
+      "releasedToStars": true,
+      "createdAt": "2026-11-11T20:24:15.805Z"
+    }
+  ]
+}
